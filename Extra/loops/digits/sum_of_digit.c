@@ -9,8 +9,8 @@ int main(){
     int sum  = 0;
 
     while(n > 0){
-        sum += n%10;
-        n /= 10;
+        sum =sum + n%10;
+        n/= 10;
     }
 
     printf("Sum of digits in n %d is %d",n_copy,sum);
